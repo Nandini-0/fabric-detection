@@ -1,8 +1,6 @@
-fastai==2.5.3
 keras==2.7.0
 numpy==1.21.4
 Pillow==9.0.0
-streamlit
+scikit-learn==1.0.2
 tensorflow==2.7.0
-torch==1.10.1
-torchvision==0.11.2
+streamlit
