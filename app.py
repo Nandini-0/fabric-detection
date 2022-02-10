@@ -8,11 +8,19 @@ import os
 from keras.preprocessing.image import load_img,img_to_array
 import pickle
 from tensorflow.keras.preprocessing import image
+from keras.models import model_from_json
+from keras.initializers import glorot_uniform
+
+#Reading the model from JSON file
+with open('model.json', 'r') as json_file:
+    json_savedModel= json_file.read()
+#load the model architecture 
+m1 = tf.keras.models.model_from_json(json_savedModel)
+m1.summary()
 
 st.header("Human, Mannequin and Fabric Detection")
 st.text('-'*80)
 
-m1 = tf.keras.models.load_model('human_detection_3.h5')
 dic = pickle.load(open(r'class_3.pkl','rb'))
 
 #dic=train_generator.class_indices
