@@ -20,7 +20,6 @@ fonttools==4.28.5
 google-auth==2.3.3
 google-auth-oauthlib==0.4.6
 grpcio==1.43.0
-importlib-metadata==4.10.1
 joblib==1.1.0
 jupyter-contrib-core==0.3.3
 keras==2.7.0
