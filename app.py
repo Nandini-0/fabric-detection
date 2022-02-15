@@ -16,7 +16,7 @@ with open('model.json', 'r') as json_file:
     json_savedModel= json_file.read()
 #load the model architecture 
 m1 = tf.keras.models.model_from_json(json_savedModel)
-m1.summary()
+#m1.summary()
 
 st.header("Human, Mannequin and Fabric Detection")
 st.text('-'*80)
