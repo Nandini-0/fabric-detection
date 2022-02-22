@@ -10,12 +10,12 @@ from PIL import Image
 import os
 import numpy as np
 import pandas as pd
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+#import tensorflow as tf
+#from tensorflow.keras.models import load_model
+#from tensorflow.keras.preprocessing import image
 from flask import Flask, render_template, request
-from tensorflow.keras.preprocessing.image import load_img
-from tensorflow.keras.preprocessing.image import img_to_array
+#from tensorflow.keras.preprocessing.image import load_img
+#from tensorflow.keras.preprocessing.image import img_to_array
 
 app = Flask(__name__)
 
