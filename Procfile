@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: voila --port=$PORT --no-browser --enable_nbextensions=True product_label.ipynb
